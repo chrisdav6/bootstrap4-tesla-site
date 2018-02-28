@@ -1,0 +1,49 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/hero-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  @media (min-width: 768px) {
+    background: url(../img/hero.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.navbar-brand img {
+  margin-top: -5px;
+}
+
+.navbar-nav a {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#title {
+  font-size: 32px;
+}
+
+#subtitle {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.topText {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.botText {
+  font-size: 13px;
+}
+
+.reserve-btn {
+  background: rgba(0, 0, 0, 0);
+  color: white;
+}
