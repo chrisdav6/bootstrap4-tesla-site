@@ -37,3 +37,14 @@ body {
 .reserve-btn {
   background: transparent;
   color: white; }
+
+.hero-bottom .container {
+  max-width: 700px; }
+
+.col-with-border {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: none;
+  border-bottom: none; }
+
+.ion-ios-arrow-down {
+  font-size: 32px; }
