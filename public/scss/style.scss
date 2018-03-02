@@ -118,3 +118,27 @@ body {
 #aero .container {
   margin-top: 375px;
 }
+
+#interior {
+  width: 100%;
+  height: 60vh;
+  
+  @media (min-width: 768px) {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+#interior .figure {
+  max-width: 90%;
+  
+  @media (min-width: 768px) {
+    max-width: 70%;
+  }
+}
+
+.caption-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+}
