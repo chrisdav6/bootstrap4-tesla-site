@@ -22,11 +22,22 @@ body {
   font-weight: 600; }
 
 #title {
+  position: relative;
+  top: 100px;
+  opacity: 0;
   font-size: 32px; }
 
 #subtitle {
+  position: relative;
+  top: 100px;
+  opacity: 0;
   font-size: 40px;
   font-weight: bold; }
+
+.col1, .col2, .col3, .col4, .col5 {
+  position: relative;
+  top: 100px;
+  opacity: 0; }
 
 .topText {
   font-size: 28px;

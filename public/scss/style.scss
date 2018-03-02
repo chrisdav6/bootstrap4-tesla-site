@@ -27,12 +27,24 @@ body {
 }
 
 #title {
+  position: relative; //For animation
+  top: 100px; //For animation
+  opacity: 0; //For animation
   font-size: 32px;
 }
 
 #subtitle {
+  position: relative; //For animation
+  top: 100px; //For animation
+  opacity: 0; //For animation
   font-size: 40px;
   font-weight: bold;
+}
+
+.col1, .col2, .col3, .col4, .col5 {
+  position: relative; //For animation
+  top: 100px; //For animation
+  opacity: 0; //For animation
 }
 
 .topText {
