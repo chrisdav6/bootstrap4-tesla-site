@@ -85,6 +85,12 @@ body {
   }
 }
 
+.hideme {
+  position: relative; //For animation
+  top: 400px; //For animation
+  opacity: 0; //For animation
+}
+
 #movieAndStats table {
   width: 90%;
   margin: 0 auto;
